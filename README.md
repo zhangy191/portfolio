@@ -7,7 +7,7 @@ Run the following commands to build the project first:
 
 1. npm install
 
-2. bower install
+2. bower install (choose angular 1.4.7 if asked)
 
 3. grunt
 
