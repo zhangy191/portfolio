@@ -1,5 +1,4 @@
 # portfolio
-personal portfolio redo. 
 
 Convert regular web pages into angular-based single page application. http://yan-zhang.net/
 
