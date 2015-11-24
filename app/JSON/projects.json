@@ -1,0 +1,62 @@
+[
+	{
+		"id": "sir",
+		"name": "Sotheby's Realty",
+		"thumbnail": "images/projects/sir_thumb.jpg",
+		"category": "Website",
+		"description": "Utilized an expert knowledge of JavaScript, HTML, CSS and DOM to deliver the front-end production on large-scale web sites in RENO (Company-owned CMS Platform). Heavy use of CSS and JavaScript to code custom website themes and templates for over 150 media and real estate web sites, such as Sotheby's Realty.",
+		"images": [
+			"images/projects/sir_1.jpg", "images/projects/sir_2.jpg", "images/projects/sir_3.jpg", "images/projects/sir_4.jpg"
+		]
+	},
+	{
+		"id": "mobile",
+		"name": "RENO Mobile",
+		"thumbnail": "images/projects/mobile_thumb.jpg",
+		"category": "Mobile",
+		"description": "Designed and Built the front-end for new RENO mobile platform using standards based HTML5 and CSS3 working with jQuery/jQuery mobile in a proprietary .NET driven CMS environment. Utilized graceful degradation and progressive enhancement to support all mobile web browsers from iPhone and Android to low-end featured phones.",
+		"images": [
+			"images/projects/mobile_1.jpg", "images/projects/mobile_2.jpg", "images/projects/mobile_3.jpg", "images/projects/mobile_4.jpg"
+		]
+	},
+	{
+		"id": "christies",
+		"name": "Christie's Real Estate",
+		"thumbnail": "images/projects/christies_thumb.jpg",
+		"category": "Website",
+		"description": "Migrated Christie's International Real Estate website to RENO, rewrote 70% of the HTML, CSS and JavaScript. Optimized the user interface with an emphasis on performance, scalability, search engine optimization.",
+		"images": [
+			"images/projects/christies_1.jpg", "images/projects/christies_2.jpg", "images/projects/christies_3.jpg"
+		]
+	},
+	{
+		"id": "nytimes",
+		"name": "New York Times",
+		"thumbnail": "images/projects/nytimes_thumb.jpg",
+		"category": "Website",
+		"description": "Developed and enhanced the usability of service 'My Real Estate' at NYTimes Real Estate section, worked with product groups to build highly interactive widgets for users to manage custom search, such as creating folders, categorizing folders, renaming & reordering folders, deleting folders, etc",
+		"images": [
+			"images/projects/nytimes_1.jpg", "images/projects/nytimes_2.jpg"
+		]
+	},
+	{
+		"id": "rebroker",
+		"name": "Real Estate Broker",
+		"thumbnail": "images/projects/rebroker_thumb.jpg",
+		"category": "Website",
+		"description": "Designed and developed Gabriel's new Real Estate Broker Website, tailored to meet the local brokers' need for getting more traffic on their listings. Applied design comps to fully functional, standards compliant, cross-platform compliant HTML pages.",
+		"images": [
+			"images/projects/rebroker_1.jpg", "images/projects/rebroker_2.jpg"
+		]
+	},
+	{
+		"id": "nypinball",
+		"name": "New York Pinball",
+		"thumbnail": "images/projects/nypinball_thumb.jpg",
+		"category": "Website",
+		"description": "Implemented design comps using standards-compliant XHTML, CSS, JSON & Ajax Calls. Modified and displayed the data in forms of categories and slideshows in conjuction with PHP and JS plugin.",
+		"images": [
+			"images/projects/nypinball_1.jpg", "images/projects/nypinball_2.jpg"
+		]
+	}
+]

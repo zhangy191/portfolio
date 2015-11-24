@@ -1,0 +1,87 @@
+/* Nav Bar */
+#navbar {
+  font-family: CenturyGothicBold,Helvetica,Arial,sans-serif;
+
+  a {
+      text-transform: uppercase;
+      letter-spacing: rem-calc(1);
+      display: block;
+  }
+}
+
+.topbar {
+  padding-top: rem-calc(110);
+  border-top: rem-calc(5) solid $black;
+  position: relative;
+
+  li {
+    list-style-type: none;
+
+    &.nav-item {
+      background: url('../../images/nav/nav_line_mobile.png') repeat-x scroll 0 bottom transparent;
+      height: rem-calc(32);
+      margin-top: rem-calc(10);
+    }
+
+    &.nav-logo {
+      background: url('../../images/home/logo.png') no-repeat scroll 50% 0 transparent;
+      text-indent: rem-calc(-9999);
+      height: rem-calc(57);
+      background-size: contain;
+      position: absolute;
+      top: rem-calc(50);
+    }
+
+    a {
+      color: $black;
+      height: 100%;
+      line-height: rem-calc(32);
+      font-size: rem-calc($small-font-size);
+
+      &:hover, &.active {
+        color: $blue;
+      }
+    }
+  }
+}
+
+.hidbar {
+  width: 100%;
+  background: url('../../images/nav/navbar_bg.png') repeat-x scroll 0 bottom transparent;
+  padding-top: rem-calc(15);
+
+  li {
+    &.nav-logo {
+      position: absolute;
+      top: rem-calc(3);
+
+      a {
+        font-size: rem-calc($body-font-size);
+      }
+    }
+  
+    &.nav-item {
+      padding: rem-calc(0 0 5);
+    }
+
+    a {
+      color: $white;
+      font-size: rem-calc($small-font-size);
+
+      &:hover, &.active {
+        color: $blue;
+      }
+    }
+  }
+
+  &.ng-hide-add, &.ng-hide-remove {
+    @include transition-property(all);
+    @include transition-duration(0.5s);
+    @include transition-timing-function(linear);
+  }
+
+  &.ng-hide {
+    line-height: 0;
+    opacity: 0;
+  }
+}

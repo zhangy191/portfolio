@@ -1,0 +1,25 @@
+<project-nav-dir></project-nav-dir>
+
+<div class="row" ng-controller="ModalCtrl">
+	<div class="small-12 medium-12 large-4 columns">
+		<h3>{{project.name}}</h3>
+		<p>{{project.category}}</p>
+		<p>{{project.description}}</p>
+	</div>
+
+	<div class="small-12 medium-12 large-8 columns">
+		<div ng-repeat="image in project.images" class="pro-img">
+			<img ng-src="{{image}}" ng-click="open($index)">				
+		</div>
+	</div>
+
+	<script type="text/ng-template" id="modalContent.html">
+		<slick settings="slickConfig">
+			<div ng-repeat="image in project.images">
+				<img ng-src="{{image}}">
+			</div>
+		</slick>
+
+		<a class="close-reveal-modal" ng-click="close()">&#215;</a>
+	</script>
+</div>

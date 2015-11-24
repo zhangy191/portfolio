@@ -1,0 +1,27 @@
+.topbar {
+	 padding-top: rem-calc(50);
+
+	li.nav-logo {
+		position: static;
+		top: inherit;
+	}
+
+	li.nav-item {
+		background: url('../../images/nav/nav_line.png') repeat-x scroll 0 0 transparent;
+		margin-top: rem-calc(20);
+	}
+} 
+
+.hidbar {
+	padding-top: 0;
+
+	li.nav-logo {
+		position: static;
+		top: inherit;
+		padding: rem-calc(10 0);
+	}
+
+	li.nav-item {
+		padding: rem-calc(10 0);
+	}
+}

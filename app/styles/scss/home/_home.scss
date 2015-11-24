@@ -1,0 +1,43 @@
+#intro {
+	margin-top: rem-calc(30);
+
+	h1::after {
+		content: '';
+		display: block;
+		background: url('../../images/home/dots.png') no-repeat scroll 50% 0 transparent;
+		background-size: contain;
+		min-height: rem-calc(12);
+		width: 100%;
+		margin-top: rem-calc(11);
+	}
+
+	.bold {
+		font-family: CourierNewBold,Helvetica,Arial,sans-serif;
+	}
+
+	p {
+		@include column-count(1);
+		@include column-gap(rem-calc(20));
+		padding-top: rem-calc(20);
+		font-size: rem-calc($body-font-size);
+	}
+}
+
+#service {
+	margin-top: rem-calc(30);
+	background: url('../../images/home/service_bg.jpg') repeat-x scroll 0 0 transparent;
+
+	.columns {
+		margin-top: rem-calc(30);
+	}
+}
+
+#projects {
+	.project-info {
+		min-height: rem-calc(200);
+	}
+}
+
+#about, #contact {
+	height: rem-calc(500);
+}

@@ -1,0 +1,31 @@
+/*
+  Name: Yan Zhang's Portfolio Stylesheet
+  Date: Oct 2015
+  Description: Page layout for portfolio 
+  Author : Yan Zhang
+*/
+
+@import 
+	'compass/css3/font-face',
+	'compass/css3/transform',
+	'compass/css3/transition',
+	'compass/css3/columns',
+
+	'foundation/functions',
+	'settings',
+	'normalize',
+	'foundation/components/type',
+	'foundation/components/grid',
+	'foundation/components/reveal',
+
+	'global/global',
+	'nav/nav',
+	'home/home',
+	'project/project';
+
+// Media Query
+@media only screen and (min-width: $small-breakpoint) {
+	@import 
+		'nav/nav-small-breakpoint',
+		'home/home-small-breakpoint';
+}

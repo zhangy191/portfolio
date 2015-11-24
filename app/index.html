@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyPortfolio">
+<head profile="http://www.w3.org/2005/10/profile">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Yan Zhang's Portfolio</title>
+	<meta name="description" content="Yan Zhang is a new york-based front-end web developer. She builds smart, beautiful and effective websites by using clean and standard codes" />
+	<meta name="keywords" content="Yan Zhang, web design, web development, digital marketing, ecommerce, cms, crm, application development" />
+
+	<link rel="icon" type="image/png" href="favicon.ico">
+
+	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
+	<link rel="stylesheet" href="styles/css/master.css">	
+</head>
+<body>
+	<div class="main-content">
+		<nav-bar-dir></nav-bar-dir>
+
+		<div ng-view></div>
+	</div>
+</body>
+
+<!-- Vendor -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-waypoints/dist/angular-waypoints.all.js"></script>
+<script src="bower_components/angular-scroll/angular-scroll.js"></script>
+<script src="bower_components/angular-foundation/mm-foundation-tpls.js"></script>
+<script src="bower_components/slick-carousel/slick/slick.js"></script>
+<script src="bower_components/angular-slick-carousel/dist/angular-slick.js"></script>
+
+<!-- App -->
+<script src="scripts/app.js"></script>
+<script src="scripts/routes.js"></script>
+
+<!-- Directives -->
+<script src="scripts/directives/projectNavDir.js"></script>
+<script src="scripts/directives/navBarDir.js"></script>
+
+<!-- Controllers -->
+<script src="scripts/controllers/homeIndexCtrl.js"></script>
+<script src="scripts/controllers/projectsShowCtrl.js"></script>
+<script src="scripts/controllers/modalCtrl.js"></script>
+
+<!-- Services -->
+<script src="scripts/services/projects.js"></script>
+<script src="scripts/services/locationchanger.js"></script>
+
+</html>

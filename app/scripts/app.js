@@ -1,0 +1,1 @@
+angular.module('MyPortfolio', ['ngRoute', 'ngResource', 'ngAnimate', 'zumba.angular-waypoints', 'duScroll', 'mm.foundation', 'slickCarousel']);

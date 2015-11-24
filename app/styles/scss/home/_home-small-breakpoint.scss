@@ -1,0 +1,16 @@
+#intro {
+	margin-top: rem-calc(50);
+
+	p {
+		@include column-count(2);
+		padding-top: rem-calc(30);
+	}
+}
+
+#service {
+	margin-top: rem-calc(60);
+
+	.columns {
+		margin-top: rem-calc(60);
+	}
+}

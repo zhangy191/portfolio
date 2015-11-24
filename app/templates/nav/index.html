@@ -1,0 +1,17 @@
+<div id="navbar">
+	<div class="topbar" zum-waypoint="waypoints" down="flags.on" up="flags.off" offset="-80">
+		<ul class="custom-row">
+			<li class="columns text-center" ng-class="navColumn(nav)" ng-repeat="nav in navbar">
+				<a ng-class="navClass(nav.page)" ng-click="loadPage(nav.page)">{{nav.name}}</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="fixed hidbar" ng-show="waypoints.flags.on">
+		<ul class="custom-row">
+			<li class="columns text-center" ng-class="navColumn(nav)" ng-repeat="nav in navbar">
+				<a ng-class="navClass(nav.page)" ng-click="loadPage(nav.page)">{{nav.name}}</a>
+			</li>
+		</ul>	
+	</div>
+</div>

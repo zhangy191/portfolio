@@ -1,0 +1,50 @@
+<div id="intro" class="row">
+	<h1 class="columns small-12 text-center">
+		<img src="images/home/intro.png" alt="Beautiful design with powerful functionalities">
+	</h1>
+	<p class="columns small-12 small-centered medium-9 large-9"><span class="bold">Yan Zhang</span> is a new york-based front-end web developer. She builds smart, beautiful and responsive websites, using a clean and standard code.She combines creativity with functionality to deliver high quality websites while maintaining the accessibility and compatibility across all web platforms.</p>
+</div>
+
+<div id="service" class="custom-row-full">
+	<div class="row">
+		<div class="columns small-12 medium-4 large-4">
+			<img src="images/home/discover_icon.png" alt="discover your clients needs">
+			Understanding your vision, gathering information, formulating a powerful content strategy, and discovering what your clients need.
+		</div>
+		<div class="columns small-12 medium-4 large-4">
+			<img src="images/home/build_icon.png" alt="build your application">
+			Taking all pieces of the puzzle and designing an easy-to-use, powerful, and user-centric site that isn't just sweet to look at but makes your customers want to return.
+		</div>
+		<div class="columns small-12 medium-4 large-4">
+			<img src="images/home/launch_icon.png" alt="launch your site">
+			Getting your site up and running! See what your users think, ensuring that your users love your site and, more importantly, your product/service.
+		</div>	
+	</div>
+</div>
+
+<div id="projects">
+	<div class="row">
+
+		<h3>These are what I've been working on lately. View More...</h3>
+		<div ng-repeat="project in projects" class="small-6 medium-6 large-3 columns">
+			<div class="project-info">
+				<a ng-href="#/projects/{{project.id}}">
+					<img ng-src="{{project.thumbnail}}" alt="{{project.name}}">
+				</a>
+				<h4>{{project.name}}</h4>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="about" class="row">
+	I currently work as a front-end web developer for a new york-based IT company. During the past few years, I have been working on projects for many brands, including New York Times, Sotheby’s International Realthy, ChristiesRealty, etc. I can produce a wide range of services, from web design & development, mobile applications to logo design, brand identity. However, web design & development has always been my passion and focus.
+
+	My front-end skills include HTML, CSS, Javascript (jQuery, OOP), XML/XSL/XPath, responsive web design & development, MVC, SEO, CMS integration, web standards and accessibility, cross-brower compatibility, etc.
+
+	Want to know my skills level? Check the source code of this website. It is 100% handcrafted from design to development and I keep the site updated with the latest front-end techonologies.
+</div>
+
+<div id="contact" class="row">
+	Share with me
+</div>	
